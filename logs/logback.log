@@ -1,0 +1,1 @@
+[2021-03-18 17:40:35:6441260][http-nio-8080-exec-1] WARN  com.hys.blog.aop.BindingAdvice - com.hys.blog.controller.BlogController.join() => 필드 : username, 메세지: 아이디 길이를 초과하였습니다.

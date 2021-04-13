@@ -1,0 +1,27 @@
+ifndef::snippets[]
+:snippets: ../../../target/generated-snippets
+endif::[]
+
+= API document
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+
+== 사용자 API
+
+== 회원가입 [post]
+
+include::{snippets}/blog-controller-test/join_test/curl-request.adoc[]
+
+=== 요청 구조
+
+include::{snippets}/blog-controller-test/join_test/http-request.adoc[]
+
+=== 응답 구조
+
+include::{snippets}/blog-controller-test/join_test/http-response.adoc[]
+
